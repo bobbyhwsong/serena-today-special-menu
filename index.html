@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - October 16, 2025</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #d4c5b9 0%, #e8dfd6 100%);
+            font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+            padding: 2rem;
+        }
+        
+        .menu-card {
+            width: 100%;
+            max-width: 400px;
+            background: linear-gradient(to bottom, #f5f0ea 0%, #ebe4dc 100%);
+            padding: 3rem 2.5rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .menu-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255, 255, 255, 0.03) 2px,
+                    rgba(255, 255, 255, 0.03) 4px
+                ),
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255, 255, 255, 0.03) 2px,
+                    rgba(255, 255, 255, 0.03) 4px
+                );
+            pointer-events: none;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            position: relative;
+        }
+        
+        .date {
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-size: 0.75rem;
+            color: #6b5d52;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+        
+        .flower-icon {
+            width: 40px;
+            height: 40px;
+            margin: 0 auto 1.5rem;
+        }
+        
+        .flower-icon svg {
+            width: 100%;
+            height: 100%;
+            fill: none;
+            stroke: #8b7968;
+            stroke-width: 1.5;
+        }
+        
+        .title {
+            font-size: 1.8rem;
+            color: #3d3530;
+            font-weight: 300;
+            letter-spacing: 3px;
+            text-transform: lowercase;
+        }
+        
+        .menu-items {
+            position: relative;
+        }
+        
+        .menu-item {
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+        
+        .menu-item:last-of-type {
+            margin-bottom: 2.5rem;
+        }
+        
+        .item-en {
+            font-size: 0.95rem;
+            color: #3d3530;
+            margin-bottom: 0.3rem;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+        }
+        
+        .item-ko {
+            font-size: 0.85rem;
+            color: #6b5d52;
+            font-weight: 300;
+            letter-spacing: 0.2px;
+        }
+        
+        .side-note {
+            margin-top: 0.5rem;
+            padding-left: 1rem;
+        }
+        
+        .note {
+            text-align: center;
+            font-size: 0.75rem;
+            color: #8b7968;
+            font-style: italic;
+            font-weight: 300;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(139, 121, 104, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-card">
+        <div class="header">
+            <div class="date">october 16, 2025</div>
+            <div class="flower-icon">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="8"/>
+                    <ellipse cx="50" cy="25" rx="12" ry="18"/>
+                    <ellipse cx="50" cy="75" rx="12" ry="18"/>
+                    <ellipse cx="25" cy="50" rx="18" ry="12"/>
+                    <ellipse cx="75" cy="50" rx="18" ry="12"/>
+                    <ellipse cx="32" cy="32" rx="14" ry="14" transform="rotate(45 32 32)"/>
+                    <ellipse cx="68" cy="32" rx="14" ry="14" transform="rotate(-45 68 32)"/>
+                    <ellipse cx="32" cy="68" rx="14" ry="14" transform="rotate(-45 32 68)"/>
+                    <ellipse cx="68" cy="68" rx="14" ry="14" transform="rotate(45 68 68)"/>
+                </svg>
+            </div>
+            <h1 class="title">menu</h1>
+        </div>
+        
+        <div class="menu-items">
+            <div class="menu-item">
+                <div class="item-en">broccoli soup</div>
+                <div class="item-ko">브로콜리 스프</div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="item-en">fig and burrata salad</div>
+                <div class="item-ko">무화과 부라타 샐러드</div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="item-en">ankimo bruschetta</div>
+                <div class="item-ko">안키모 브루스케타</div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="item-en">cheese mushroom and sun-dried tomato</div>
+                <div class="item-ko">치즈 양송이와 말린 토마토</div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="item-en">flounder and perilla leaf salad</div>
+                <div class="item-ko">광어 깻잎 무침</div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="item-en">pollack roe</div>
+                <div class="item-ko">뽈뽀</div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="item-en">seaweed scallop with uni sauce</div>
+                <div class="item-ko">감태 관자 우니소스</div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="item-en">mongolian beef, garlic rice, clam soup</div>
+                <div class="item-ko">몽골리안 비프, 마늘밥, 모시조개국</div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="item-en">rainbow cheese and mochi tofu</div>
+                <div class="item-ko">레인보우 치즈와 모찌리 도후</div>
+            </div>
+            
+            <div class="menu-item">
+                <div class="item-en">side</div>
+                <div class="item-ko">사이드</div>
+                <div class="side-note">
+                    <div class="item-en">radish kimchi and shiitake salad</div>
+                    <div class="item-ko">라웨이황과, 새송이 무침</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="note">
+            *셰프 사정에 따라 메뉴 변경이 있을 수 있습니다.*
+        </div>
+    </div>
+</body>
+</html>
